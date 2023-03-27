@@ -1,0 +1,193 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #0A2342;
+    color: #D9A741;
+}
+body{
+    background-color: #0A2342;
+}
+header{
+    color: #D9A741 !important;
+}
+
+.navbar .navbar-expand-lg .bg-body-tertiary{
+    position: sticky;
+    color: #D9A741;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.navbar-brand{
+    color: #D9A741;
+}
+.dropdown-menu{
+    color: #D9A741;
+}
+.container-fluid{
+    color: #D9A741;
+}
+.rounded .float-start{
+    width: 100px;
+    height: 100px;
+    color: #D9A741;
+}
+.nav-item .dropdown{
+    list-style-type: none;
+    color: #D9A741;
+}
+.rounded .float-end{
+    width: 100px;
+    height: 100px;
+    color: #D9A741 
+}
+.nav-item{
+    list-style: none;
+    color: #D9A741
+}
+.presentacion__section{
+    box-sizing: content-box;
+
+}
+.presentacion__section__div{
+    display: flex;
+    justify-content: center;
+}
+.presentacion__section__h1{
+    display: flex;
+    justify-content: center;
+}
+.presentacion__section__img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-right: 2em;
+}
+.presentacion__section__p{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+}
+.proyectos{
+    display: flex;
+    justify-content: center;
+}
+.proyectos__section__h2{
+    display: flex;
+    justify-content: center;
+
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    margin: 1em;
+}
+.card img{
+    object-fit: cover;
+    height: 200px;
+}
+#boton{
+    position: relative;
+    top: 3em;
+} 
+.tech__section__h2{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.tech__images{
+    width: 200px;
+    height: 200px;
+    margin: 3em;
+    transition: transform 0.3s ease-in-out;
+}
+.tech__images:hover{
+    transform: scale(1.2);
+}
+#navbar{
+    color: #D9A741;
+    position: sticky;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    z-index: 9999;
+
+}
+.contact{
+    box-sizing: content-box;
+}
+
+.contact__section__h2{
+    display: flex;
+    justify-content: center;
+}
+.contact__section__form{
+    display: grid;
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+    border: 1px solid rgb(53, 76, 138);
+    border-radius: 10px;
+}
+.contact__section__form label{
+    margin: 0.5em;
+}
+.contact__section__form button{
+    margin-top: 1em;
+
+}
+.boton-top{
+    margin-left: 75em;
+    width: 60px;
+    height: 60px;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.pie{
+    display: flex;
+    justify-content: center;
+}
+.lista{
+    list-style: none;
+}
+.lista li{
+    display: inline;
+}
+.referencia{
+    width: 50px;
+    height: 50px;
+    margin-left: 1em;
+}
+.referencia:hover{
+    transform: scale(1.2);
+}
+.proyectosJS{
+    display: flex;
+    justify-content: center;
+}
+.proyectosJS__contenedor{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+.proyectosJS__contenedor .card{
+    width: 200px;
+    height: 450px;
+    border: 1px solid grey;
+    box-sizing: content-box;
+}
+.proyectosJS__contenedor .card .linktree{
+    margin-top: 3em;
+}
+.divisor{
+    margin: 0;
+    padding: 0;
+    background-color: #0A2342 !important;
+}
+

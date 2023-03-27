@@ -1,0 +1,9 @@
+nav{
+    background: rgb(174,209,238);
+    background: radial-gradient(circle, rgba(174,209,238,0.8754901618850666) 0%, rgba(233,148,213,0.6766106100643383) 100%); 
+
+}
+#boton{
+    background-color: rgba(69, 106, 134, 0.339);
+    border-color: black;
+}

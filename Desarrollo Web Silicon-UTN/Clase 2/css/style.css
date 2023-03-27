@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(76, 76, 109);
+    color: yellow;
+    font-family: monospace;
+}
+
+article p{
+    font: 300;
+    color: red;
+    font-size: 150%;
+}
+
+.estaciones li{
+    border-radius: 1%;
+    background-color: tomato;
+    width: 25%;
+    text-align: center;
+    list-style: none;
+    margin-top: 1%;
+    border: 2px solid yellow;
+}

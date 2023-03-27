@@ -1,0 +1,67 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    margin-top: 5%;
+}
+.cubo{
+    width: fit-content;
+    border-radius: 20px;
+}
+.tarjeta{
+    background-color: rgb(20, 37, 61);
+    border-radius: 20px;
+    width: 600px;
+    margin:auto;
+    padding: 20px;
+    justify-content: space-between;
+}
+.cuerpo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.cuerpo h1{
+    font-size: 40px;
+    color: white;
+    margin: 10px;
+}
+.cuerpo p{
+    font-size: 35px;
+    color: aquamarine;
+    margin: 10px;
+}
+.compra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+.ethereum{
+    color: aquamarine;
+    font-size: 30px;
+}
+.reloj{
+    color: gray;
+    font-size: 30px;
+}
+.creador{
+    border-top: 2px solid grey;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.usuario{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 5%;
+    
+
+}
+.creador span{
+    color: white;
+justify-content: space-between;
+text-align: center;
+font-size: 20px;
+position: relative;
+top: -35px;
+left: 25px;
+}

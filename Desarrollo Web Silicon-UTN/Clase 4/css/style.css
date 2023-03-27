@@ -1,0 +1,25 @@
+#carouselExample{
+    width: 550px;
+    height: 200px;
+}
+.row{
+    background-color: green;
+    padding: 10px;
+    border: 10px;
+    border-color: black;
+}
+.container .row{
+    background-color: magenta;
+    color: magenta;
+}
+.container .col-2{
+    background-color: salmon;
+    border: 5px;
+    border-color: brown;
+    display: flex;
+    width: 150px;
+    padding: 20px;
+    justify-content: space-between;
+    
+    
+}

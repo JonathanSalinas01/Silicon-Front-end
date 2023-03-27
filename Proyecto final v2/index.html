@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body id="myBody">
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#presentacion">Presentación</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#tecnologias">Tecnologías</a></li>
+        <li class="dropdown">
+          <a href="#proyectos" class="dropbtn">Mis Proyectos</a>
+          <div class="dropdown-content">
+            <a href="pages/proyectosJs.html">JavaScript</a>
+            <a href="pages/proyectosJava.html">Java</a>
+          </div>
+          <li><a href="#contacto">Contacto</a></li>
+        </li>
+        <li class="theme-switcher">
+          <button class="toggle-btn" onclick="toggleTheme()">Cambiar Tema</button>
+        </li>
+      </ul>
+    </nav>
+    <section id="presentation">
+      <div class="image-container">
+        <img src="images/guts.jpg" alt="Foto de perfil">
+      </div>
+      <div class="text-container">
+        <h1>Presentación</h1>
+        <p>¡Hola! Mi nombre es Jonathan Salinas, soy desarrollador web formado gracias a Silicon Misiones, la UTN y de manera Autodidacta. </p>
+      </div>
+    </section>
+    
+    
+    <section id="formacion">
+      <h2>Formación</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="images/silicon-misiones.webp" alt="Silicon Misiones">
+          <h3>Desarrollador Web FullStack en Silicon Misiones</h3>
+          <p>Curso de Desarrollador FullStack en convenio con la Universidad Tecnologíca Nacional (UTN).</p>
+        </div>
+        <div class="card">
+          <img src="images/Argentina programa.png" alt="Argentina programa">
+          <h3>Desarrolador Java Inicial en Argentina Programa 4.0</h3>
+          <p>Curso de Desarrolador Java Inicial en convenio con la Universidad Tecnologíca Nacional (UTN).</p>
+        </div>
+        <div class="card">
+          <img src="images/CodoACodo.jpg" alt="Codo a codo">
+          <h3>Desarrolador Java Front-End</h3>
+          <p>Curso Desarrolador Java Front-End correspondiente al programa Codo a Codo 4.0</p>
+        </div>
+        <div class="card">
+          <img src="images/AmazonWebServices.png" alt="Amazon web Services">
+          <h3>AWS Certified Cloud Practitioner</h3>
+          <p>Curso dictado en colaboración con Silicon Misiones.</p>
+        </div>
+        <div class="card">
+          <img src="images/silicon-misiones.webp" alt="Silicon Misiones">
+          <h3>Inglés Nivel Intermediate</h3>
+          <p>Curso dictado por Silicon Misiones para reforzar el conocimiento en el idioma inglés.</p>
+        </div>
+      </div>
+    </section>
+    <section id="tecnologias">
+      <h2>Tecnologías Manejadas</h2>
+      <div class="imagenes-tecnologia">
+        <div class="imagen-tecnologia">
+          <img src="images/html-5.png" alt="HTML">
+          <div class="texto-tecnologia">HTML</div>
+        </div>
+        <div class="imagen-tecnologia">
+          <img src="images/css-3.png" alt="CSS">
+          <div class="texto-tecnologia">CSS</div>
+        </div>
+        <div class="imagen-tecnologia">
+          <img src="images/javascript.png" alt="Javascript">
+          <div class="texto-tecnologia">JavaScript</div>
+        </div>
+        <div class="imagen-tecnologia">
+          <img src="images/bootstrap.png" alt="Bootstrap">
+          <div class="texto-tecnologia">Bootstrap</div>
+        </div>
+        <div class="imagen-tecnologia">
+          <img src="images/java.png" alt="Java">
+          <div class="texto-tecnologia">Java</div>
+        </div>
+        <div class="imagen-tecnologia">
+          <img src="images/Aws.png" alt="AmazonWebServices">
+          <div class="texto-tecnologia">Amazon Web Services</div>
+        </div>
+        <div class="imagen-tecnologia">
+          <img src="images/git.png" alt="Git">
+          <div class="texto-tecnologia">Git</div>
+        </div>
+      </div>
+    </section>
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="images/proyectos.png" alt="HTML, CSS Y JavaScript">
+          <h3>HTML, CSS y JavaScript</h3>
+          <p>Mis proyectos creados en HTML, CSS y JavaScript.</p>
+          <a href="pages/proyectosJs.html" class="card-link">Ver Proyectos</a>
+        </div>
+        <div class="card">
+          <img src="images/java.png" alt="logo-Java">
+          <h3>Java</h3>
+          <p>Mis proyectos creados en Java.</p>
+          <a href="pages/proyectosJava.html" class="card-link">Ver Proyectos</a>
+        </div>
+      </div>
+    </section>
+    
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form  id="formulario" action="https://formspree.io/f/mlekwkgw"
+      method="POST">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
+        </div>
+        <div class="form-group">
+          <label for="apellido">Apellido:</label>
+          <input type="text" id="apellido" name="apellido" placeholder="Escribe tu apellido">
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Escribe tu email">
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn-enviar">Enviar</button>
+      </form>
+    </section>
+
+
+    <div class="separator"></div>
+    <footer>
+      <div class="footer-images">
+        <a href="https://ar.linkedin.com/" target="_blank">
+          <img src="images/logotipo-de-linkedin.png" alt="logo-Linkedin">
+        </a>
+        <a href="https://github.com/JonathanSalinas01" target="_blank">
+          <img src="images/github.png" alt="logo-Github">
+        </a>
+      </div>
+    </footer>
+    
+    <script src="js/script.js"></script>
+  </body>
+</html>

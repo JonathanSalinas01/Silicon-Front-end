@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <header id="navbar">
+      <nav style="margin: 0; padding: 0;" class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+          </a>   
+          <a style="color: #D9A741;" class="navbar-brand" href="#">Inicio</a>
+          <a style="color: #D9A741;" class="navbar-brand letra" href="#">Presentación</a>
+          <a style="color: #D9A741;" class="navbar-brand" href="#formacion">Formación</a>
+          <a style="color: #D9A741;" class="navbar-brand" href="#tecnologia">Tecnologías</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Mis Proyectos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a style="color: #D9A741;" class="dropdown-item" href="#">HTML, CSS y JavaScript</a></li>
+              <li><a style="color: #D9A741;" class="dropdown-item" href="#">Java</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a style="color: #D9A741;" class="dropdown-item" href="#">Otras tecnologías</a></li>
+            </ul>
+          </li>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a style="color: #D9A741;" class="nav-link" href="#contacto">Contactame</a>
+              </li>
+
+
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+    </header>
+
+    <article class="presentacion"> 
+      <section class="presentacion__section">
+        <h1 class="presentacion__section__h1">Presentación</h1>
+        <div class="presentacion__section__div">
+        <img src="images/guts.jpg" alt="Foto de perfil" class="presentacion__section__img">
+        <p class="presentacion__section__p">¡Hola! Mi nombre es Jonathan Salinas y soy Programador Web Front-End gracias a Silicon Misiones. 
+        </p>
+      </div>
+      </section>
+    </article>
+    <div class="espacio"><br><br></div>
+    <article class="proyectos">
+      <section class="proyectos__section">
+        <h2 class="proyectos__section__h2" id="formacion">Formación</h2>
+        <div class="espacio"><br><br><br></div>
+        <div class="contenedor">
+        <div class="card">
+          <img src="images/silicon-misiones.webp" class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title">Desarrollador Web FullStack en Silicon Misiones</h5>
+            <p class="card-text">Curso de Desarrollador FullStack en convenio con la Universidad Tecnologíca Nacional (UTN).</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="images/Argentina programa.png" class="card-img-top" alt="...">
+        
+          <div class="card-body">
+            <h5 class="card-title">Desarrolador Java Inicial en Argentina Programa 4.0</h5>
+            <p class="card-text">Curso de Desarrolador Java Inicial en convenio con la Universidad Tecnologíca Nacional (UTN).</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/CodoACodo.jpg" class="card-img-top" alt="...">
+      
+        <div class="card-body">
+          <h5 class="card-title">Desarrolador Java Front-End</h5>
+          <p class="card-text">Curso Desarrolador Java Front-End correspondiente al programa Codo a Codo 4.0</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/AmazonWebServices.png" class="card-img-top" alt="...">
+      
+        <div class="card-body">
+          <h5 class="card-title">AWS Certified Cloud Practitioner</h5>
+          <p class="card-text">Curso dictado en colaboración con Silicon Misiones.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/silicon-misiones.webp" class="card-img-top" alt="...">
+      
+        <div class="card-body">
+          <h5 class="card-title">Inglés Nivel Intermediate</h5>
+          <p class="card-text">Curso dictado por Silicon Misiones para reforzar el conocimiento en el idioma inglés.</p>
+        </div>
+      </div>
+      
+      
+      </section>
+    </article>
+    <div class="espacio"><br><br><br></div>
+
+    <article class="tech">
+      <section class="tech__section">
+        <h2 class="tech__section__h2" id="tecnologia">Tecnologías Manejadas</h2>
+        <div class="tech__section__div">
+          <img src="images/html-5.png" alt="" class="tech__images">
+          <img src="images/css-3.png" alt="" class="tech__images">
+          <img src="images/javascript.png" alt="" class="tech__images">
+          <img src="images/bootstrap.png" alt="" class="tech__images">
+          <img src="images/java.png" alt="" class="tech__images">
+          <img src="images/Aws.png" alt="" class="tech__images">
+          <img src="images/git.png" alt="" class="tech__images">
+        </div>
+      </section>
+    </article>
+    <div class="espacio"><br><br><br></div>
+    <article>
+      <section>
+        <h2 class="proyectos__section__h2" id="proyectos">Proyectos</h2>
+        <div class="espacio"><br><br><br></div>
+        <div class="contenedor">
+          <div class="card">
+            <img src="data:image/png;base64,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" class="card-img-top" alt="...">
+          
+            <div class="card-body">
+              <h5 class="card-title">HTML, CSS y JavaScript</h5>
+              <p class="card-text">Mis proyectos creados en HTML, CSS y JavaScript.</p>
+              <a href="pages/proyectosJS.html" target="_blank" class="btn btn-primary">Ver Proyectos</a>
+            </div>
+          </div>
+        
+          <div class="card">
+            <img src="images/java.png" class="card-img-top" alt="...">
+          
+            <div class="card-body">
+              <h5 class="card-title">Java</h5>
+              <p class="card-text">Mis proyectos creados en Java.</p>
+              <a id="boton" href="pages/projectosJava.html" target="_blank" class="btn btn-primary">Ver Proyectos</a>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+    </article>
+    <div class="espacio"><br><br><br></div>
+    <article class="contact">
+      <section class="contact__section">
+        <h2 class="contact__section__h2" id="contacto">Contactame</h2>
+        <form action="" class="contact__section__form">
+          <label for="">Nombre</label>
+          <input type="text" placeholder="Tu nombre">
+          <label for="">Asunto</label>
+          <input type="text" placeholder="Asunto">
+          <label for="">email</label>
+          <input type="email" name="" id="" placeholder="Tu e-mail">
+          <label for="">Mensaje</label>
+          <textarea name="" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+          <button type="submit">Enviar!</button>
+        </form>
+      </section>
+    </article>
+    <div>
+      <a href="#"><button class="boton-top">up</button></a>
+    </div>
+    <!-- <div class="espacio"><br></div> -->
+    <div><hr class="divisor"></div>
+
+    <footer class="pie">
+
+      <ul class="lista">
+        <div class="espacio"><br></div>
+        <li><a href="https://ar.linkedin.com/" target="_blank"><img class="referencia" src="images/logotipo-de-linkedin.png" alt=""></a></li>
+        <li><a href="https://github.com/JonathanSalinas01" target="_blank"><img class="referencia" src="images/github.png" alt=""></a></li>
+      </ul>
+      
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
